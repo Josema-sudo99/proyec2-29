@@ -31,8 +31,8 @@ function App() {
         .then(res => {
           setWeather(res.data);
           const obj = {
-            celsius: res.data.main.temp - 273.0,
-            farenheit: (res.data.main.temp - 273.0) * 9/5 + 32
+            celsius: (res.data.main.temp - 273.0).toFixed(1),
+            farenheit: ((res.data.main.temp - 273.0) * 9/5 + 32).toFixed(1)
           }
           setTemp(obj);
         })

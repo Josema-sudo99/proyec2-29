@@ -20,13 +20,13 @@ body {
   .titulo{
    text-align: center;
    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-   color: white;  
+   color: rgb(12, 12, 12);  
   }
 
 .sub-titulo{
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  
   text-align: center;
-  color: white;
+  color: rgb(3, 3, 3);
 }
 
 
@@ -41,8 +41,8 @@ body {
     margin: 1rem; /* Reduce el margen a 1rem */
     list-style: none;
     text-align: center; /* Cambia el alineamiento a "center" */
-    font-size: 18px; /* Reduce el tamaño de la fuente a 18px */
-    color: #fcfcfc;
+    font-size: 24px; /* Reduce el tamaño de la fuente a 18px */
+    color: #000000;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
   
@@ -67,7 +67,7 @@ body {
   .numero{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
-    color: white;
+    color: rgb(8, 4, 4);
   }
 
 
