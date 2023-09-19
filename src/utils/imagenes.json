@@ -1,0 +1,34 @@
+{
+    "spring": [
+      {
+        "imagen": "img/lluvia.jpg"
+      },
+      {
+        "imagen": "img/lluvia.jpg"
+      }
+    ],
+    "summer": [
+      {
+        "imagen": "img/verano.jpg"
+      },
+      {
+        "imagen": "img/verano.jpg"
+      }
+    ],
+    "autumn": [
+      {
+        "imagen": "img/otoño.jpg"
+      },
+      {
+        "imagen": "img/otoño.jpg"
+      }
+    ],
+    "winter": [
+      {
+        "imagen": "img/nieve.jpg"
+      },
+      {
+        "imagen": "img/nieve.jpg"
+      }
+    ]
+  }

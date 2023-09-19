@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+  }
+ 
+  
+  .container {
+    padding: 20px;
+    background: #83828244;
+    margin: 5rem auto; 
+    max-width: 300px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    border-radius: 2rem;
+    
+     
+  }
+  
+  .titulo{
+   text-align: center;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   color: white;  
+  }
+
+.sub-titulo{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  
+  text-align: center;
+  color: white;
+}
+
+
+.detalles{
+    margin: 1rem;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    display: grid;
+}
+
+  .detalles-1 {
+    margin: 1rem; /* Reduce el margen a 1rem */
+    list-style: none;
+    text-align: center; /* Cambia el alineamiento a "center" */
+    font-size: 18px; /* Reduce el tamaño de la fuente a 18px */
+    color: #fcfcfc;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  .img {
+    width: 90px; /* Reduce el ancho a 200px */
+    height: 90px; /* Reduce la altura a 200px */
+    border-radius: 50%;
+    background-color: #eee8e8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px black ;
+    transition: background 0.3s ease;
+    
+}
+.img:hover{
+    background: linear-gradient(90deg, orange, yellow, green, blue, orange, yellow, green, blue);
+    background-size: 600% 600%;
+    animation: rainbow 1s linear infinite;
+}
+
+  .numero{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    color: white;
+  }
+
+
+  .button {
+    display: inline-block;
+    padding: 5px 20px 5px 5px;
+    font-size: 16px;
+    background: linear-gradient(45deg, red, orange, yellow, green, rgb(4, 4, 12), rgb(182, 83, 2), red, orange, yellow, green, rgb(4, 4, 12), rgb(182, 83, 2));
+    background-size: 600% 600%;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+    margin: 1px 90px;
+    background-size: 600% 600%;
+    animation: rainbow 3s linear infinite;
+  }
+  
+  .background-image {
+
+    display: flex;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+    height: 100vh ;
+
+    
+  }
+
+  @keyframes rainbow {
+    0% {
+      background-position: 0% 50%;
+    }
+    100% {
+      background-position: 100% 50%;
+    }
+  }
+  @keyframes rainbow2 {
+    0% {
+      background-position: 0% 50%;
+    }
+    100% {
+      background-position: 100% 50%;
+    }
+  }
+
